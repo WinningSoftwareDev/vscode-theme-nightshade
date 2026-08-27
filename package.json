@@ -2,7 +2,7 @@
   "name": "nightshade-theme",
   "displayName": "Nightshade",
   "description": "A deep-purple dark theme with teal and pink accents, tuned for readable syntax highlighting across many languages.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "WinningSoftware",
   "engines": {
     "vscode": "^1.75.0"

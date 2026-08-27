@@ -61,7 +61,7 @@
 		"editorGroup.border": "#2a1230",
 
 		"editorLineNumber.foreground": "#1ba891",
-		"editorLineNumber.dimmedForeground": "#8aaea8",
+		"editorLineNumber.dimmedForeground": "#1ba891",
 		"editorLineNumber.activeForeground": "#e91e63",
 
 		"editorGutter.addedBackground": "#1ba891",
