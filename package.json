@@ -1,0 +1,33 @@
+{
+  "name": "nightshade",
+  "displayName": "Nightshade",
+  "description": "A deep-purple dark theme with teal and pink accents, tuned for readable syntax highlighting across many languages.",
+  "version": "0.1.0",
+  "publisher": "nightshade",
+  "engines": {
+    "vscode": "^1.134.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "teal",
+    "color-theme"
+  ],
+  "galleryBanner": {
+    "color": "#130518",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightshade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightshade-color-theme.json"
+      }
+    ]
+  }
+}
