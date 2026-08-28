@@ -6,6 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.3] - 2026-08-28
 
+### Changed
+- Strings (`string.quoted`) now use a slightly darker tone to avoid conflicting with storage types.
+
+## [0.1.2] - 2026-08-28
+
 ### Fixed
 - Numbers (`constant.numeric`) were too dark to read against the background; lightened from `#2d54c0` to `#5b8cf0` for readable contrast.
 - Constants (`constant.language`, `support.constant`, and TS/JS language constants) lightened from `#7b57ff` to `#9d86ff` for readable contrast.
