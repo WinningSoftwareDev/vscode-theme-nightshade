@@ -4,6 +4,21 @@ All notable changes to the "Nightshade" theme will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.3] - 2026-08-28
+
+### Fixed
+- Numbers (`constant.numeric`) were too dark to read against the background; lightened from `#2d54c0` to `#5b8cf0` for readable contrast.
+- Constants (`constant.language`, `support.constant`, and TS/JS language constants) lightened from `#7b57ff` to `#9d86ff` for readable contrast.
+
+### Changed
+- Variables now use a soft lavender (`#d6c7e8`) instead of plain foreground white, so they read as distinct in PHP and TypeScript.
+- Object properties now use a light teal (`#9fd6c9`) instead of near-white, making property access stand out from variables and method calls (applied consistently to PHP and TypeScript).
+- PHP constructor-promoted properties now use the property color (`#9fd6c9`) so their declaration matches how they're colored everywhere they're used.
+- Namespace segments use a solid muted teal-grey (`#6d8f89`) instead of a semi-transparent teal, keeping the receding-prefix look without the muddy transparency.
+- Reworked the README to focus on activating and using the theme, with an accurate palette table.
+- Added a Preview section and a `screenshots/` folder for theme screenshots.
+- `.vscodeignore` now excludes packaged `.vsix` files and the `.idea/` folder so they aren't bundled into the extension.
+
 ## [0.1.1] - 2026-08-27
 
 ### Fixed

@@ -288,7 +288,7 @@
 				"entity.name.namespace"
 			],
 			"settings": {
-				"foreground": "#1ba89192"
+				"foreground": "#6d8f89"
 			}
 		},
 		{
@@ -414,7 +414,7 @@
 				"meta.definition.variable entity.name.function"
 			],
 			"settings": {
-				"foreground": "#eeffff"
+				"foreground": "#d6c7e8"
 			}
 		},
 		{
@@ -426,7 +426,17 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#c9d9d6"
+				"foreground": "#9fd6c9"
+			}
+		},
+		{
+			"name": "PHP Promoted Properties",
+			"scope": [
+				"variable.other.property.promoted-property.php",
+				"meta.function.parameter.promoted-property.php variable.other"
+			],
+			"settings": {
+				"foreground": "#9fd6c9"
 			}
 		},
 		{
@@ -439,7 +449,7 @@
 				"constant.numeric.hex"
 			],
 			"settings": {
-				"foreground": "#2d54c0"
+				"foreground": "#5b8cf0"
 			}
 		},
 		{
@@ -454,7 +464,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#7b57ff"
+				"foreground": "#9d86ff"
 			}
 		},
 		{
@@ -658,7 +668,7 @@
 				"support.variable.property.ts"
 			],
 			"settings": {
-				"foreground": "#7b57ff"
+				"foreground": "#9d86ff"
 			}
 		},
 		{
@@ -669,7 +679,7 @@
 				"meta.definition.property.ts variable"
 			],
 			"settings": {
-				"foreground": "#c9d9d6"
+				"foreground": "#9fd6c9"
 			}
 		},
 		{
