@@ -4,6 +4,12 @@ All notable changes to the "Nightshade" theme will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+
+## [0.1.4] - 2026-08-28
+
+### Changed
+- TS imported/aliased bindings (`variable.other.readwrite.alias.ts`) now use lilac (`#e1b5f8`) instead of teal (`#1ba891`), so import names no longer blend into the same-colored `{ }` brackets.
+
 ## [0.1.3] - 2026-08-28
 
 ### Changed
