@@ -8,12 +8,6 @@ read that's easy on the eyes during long sessions.
 
 ![Nightshade theme preview](screenshots/preview.png)
 
-<!--
-  Add more language shots below as you capture them, e.g.:
-  ![TypeScript](screenshots/typescript.png)
-  ![CSS](screenshots/css.png)
--->
-
 ## Activate the theme
 
 Once the extension is installed:

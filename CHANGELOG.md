@@ -2,11 +2,25 @@
 
 All notable changes to the "Nightshade" theme will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.5] - 2026-09-02
+
+### Added
+- Dedicated SQL token rules so SQL no longer renders mostly as flat white. Previously nearly everything fell through to the grammar's `keyword.other.sql` catch-all (and bare `source.sql` for identifiers), which had no theme selector. SQL now maps onto the existing Nightshade palette:
+  - DDL verbs and general keywords (`CREATE`, `TABLE`, `USE`, `DEFAULT`, `NOT NULL`) use lilac (`#e1b5f8`).
+  - Query/DML keywords (`SELECT`, `FROM`, `WHERE`, `JOIN`, `AS`, `ORDER BY`) use blue (`#748bcf`).
+  - Data types (`INT`, `VARCHAR`, `TEXT`, `DATETIME`) use cyan (`#00eaff`).
+  - Constraints/modifiers (`PRIMARY KEY`, `FOREIGN KEY`, `REFERENCES`, `CONSTRAINT`) use violet (`#9d86ff`).
+  - Built-in functions (`COUNT`, `NOW`, `SUBSTRING`) use teal-cyan (`#08dde4`).
+  - Created entity names (e.g. the table name after `CREATE TABLE`) use teal (`#1ba891`), qualified `db.table` names use mint (`#9fd6c9`).
+  - Numbers, strings, variables (`@var`/`@@global`), and operators reuse their existing language-agnostic colors.
+
+### Note
+- The built-in SQL grammar routes a large set of words through a single `keyword.other.sql` catch-all, so some keyword-like data types not in its `storage.type.sql` list may render as keywords rather than types. This is a grammar limitation.
 
 ## [0.1.4] - 2026-08-28
-
 ### Changed
 - TS imported/aliased bindings (`variable.other.readwrite.alias.ts`) now use lilac (`#e1b5f8`) instead of teal (`#1ba891`), so import names no longer blend into the same-colored `{ }` brackets.
 
